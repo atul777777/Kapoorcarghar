@@ -1,0 +1,60 @@
+/* Contact Page Fullscreen Background */
+.contact-container {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background: url('./contact-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding-right: 700px;
+}
+
+/* Contact Box Styling */
+.contact-box {
+  background: black; /* Light blur effect */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: black;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Text Styling */
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.contact-details {
+  margin: 15px 0;
+}
+
+.contact-details p {
+  margin: 10px 0;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.contact-button {
+  background-color: #007bff;
+  color:  black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
